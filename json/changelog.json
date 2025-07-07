@@ -1,12 +1,12 @@
 [
   {
-    "Fecha": "2025-07-06",
-    "Descripcion": "prueba1",
+    "Fecha": "2025-07-07",
+    "Descripcion": "Implementación del sistema de changelog dinámico.",
     "Estado": "Completado"
   },
   {
-    "Fecha": "2025-07-07",
-    "Descripcion": "prueba2",
+    "Fecha": "2025-07-06",
+    "Descripcion": "Pruebas iniciales de integración con JSON externo.",
     "Estado": "En Progreso"
   }
 ]
