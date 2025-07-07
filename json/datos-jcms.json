@@ -1,267 +1,2473 @@
-{
-  "sukumizu": {
-    "nombre": "Sukumizu",
-    "objetos": {
-      "Traje_Superior": {
-        "nombre": "Traje Superior",
-        "jcms": [
-          {
-            "nombre": "Shoulder_Lift_R",
-            "estado": "completado",
-            "notas": "Corrección aplicada correctamente"
-          },
-          {
-            "nombre": "Shoulder_Lift_L",
-            "estado": "completado",
-            "notas": "Simetría verificada"
-          },
-          {
-            "nombre": "Chest_Expand",
-            "estado": "completado",
-            "notas": "Morph optimizado para respiración"
-          }
-        ]
-      },
-      "Traje_Inferior": {
-        "nombre": "Traje Inferior",
-        "jcms": [
-          {
-            "nombre": "Hip_Bend_Forward",
-            "estado": "completado",
-            "notas": "Tested en poses extremas"
-          },
-          {
-            "nombre": "Waist_Twist_R",
-            "estado": "en-progreso",
-            "notas": "Ajustando pesos de vértices"
-          },
-          {
-            "nombre": "Waist_Twist_L",
-            "estado": "pendiente",
-            "notas": "Programado para próxima iteración"
-          }
-        ]
-      },
-      "Correas": {
-        "nombre": "Correas",
-        "jcms": [
-          {
-            "nombre": "Strap_Tension_R",
-            "estado": "completado",
-            "notas": "Tensión aplicada correctamente"
-          },
-          {
-            "nombre": "Strap_Tension_L",
-            "estado": "en-progreso",
-            "notas": "Refinando deformación"
-          }
-        ]
-      }
-    }
+[
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)abdomenUpper_SideL_24z",
+    "Estado": "Hecho",
+    "Notas": ""
   },
-  "uniforme_escolar": {
-    "nombre": "Uniforme Escolar",
-    "objetos": {
-      "Camisa": {
-        "nombre": "Camisa",
-        "jcms": [
-          {
-            "nombre": "Shoulder_Lift_R",
-            "estado": "completado",
-            "notas": "Corrección aplicada correctamente"
-          },
-          {
-            "nombre": "Shoulder_Lift_L",
-            "estado": "completado",
-            "notas": "Simetría verificada"
-          },
-          {
-            "nombre": "Elbow_Bend_R",
-            "estado": "en-progreso",
-            "notas": "Necesita refinamiento en la zona del codo"
-          },
-          {
-            "nombre": "Elbow_Bend_L",
-            "estado": "pendiente",
-            "notas": "Esperando aprobación del cliente"
-          },
-          {
-            "nombre": "Chest_Expand",
-            "estado": "completado",
-            "notas": "Morph optimizado para respiración"
-          }
-        ]
-      },
-      "Falda": {
-        "nombre": "Falda",
-        "jcms": [
-          {
-            "nombre": "Hip_Bend_Forward",
-            "estado": "completado",
-            "notas": "Tested en poses extremas"
-          },
-          {
-            "nombre": "Waist_Twist_R",
-            "estado": "en-progreso",
-            "notas": "Ajustando pesos de vértices"
-          },
-          {
-            "nombre": "Leg_Lift_R",
-            "estado": "pendiente",
-            "notas": "Pendiente de revisión"
-          }
-        ]
-      },
-      "Corbata": {
-        "nombre": "Corbata",
-        "jcms": [
-          {
-            "nombre": "Neck_Turn_R",
-            "estado": "completado",
-            "notas": "Movimiento natural aplicado"
-          },
-          {
-            "nombre": "Neck_Turn_L",
-            "estado": "completado",
-            "notas": "Simetría verificada"
-          }
-        ]
-      },
-      "Calcetas": {
-        "nombre": "Calcetas",
-        "jcms": [
-          {
-            "nombre": "Knee_Bend_R",
-            "estado": "en-progreso",
-            "notas": "Ajustando compresión"
-          },
-          {
-            "nombre": "Knee_Bend_L",
-            "estado": "pendiente",
-            "notas": "Esperando revisión"
-          }
-        ]
-      }
-    }
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)abdomenUpper_SideR_24z",
+    "Estado": "Hecho",
+    "Notas": ""
   },
-  "kimono_tradicional": {
-    "nombre": "Kimono Tradicional",
-    "objetos": {
-      "Kimono_Principal": {
-        "nombre": "Kimono Principal",
-        "jcms": [
-          {
-            "nombre": "Shoulder_Lift_R",
-            "estado": "completado",
-            "notas": "Corrección aplicada correctamente"
-          },
-          {
-            "nombre": "Shoulder_Lift_L",
-            "estado": "completado",
-            "notas": "Simetría verificada"
-          },
-          {
-            "nombre": "Sleeve_Flow_R",
-            "estado": "completado",
-            "notas": "Ajustando flujo de manga"
-          },
-          {
-            "nombre": "Sleeve_Flow_L",
-            "estado": "pendiente",
-            "notas": "Pendiente de implementación"
-          }
-        ]
-      },
-      "Obi": {
-        "nombre": "Obi",
-        "jcms": [
-          {
-            "nombre": "Waist_Compress",
-            "estado": "completado",
-            "notas": "Compresión aplicada correctamente"
-          },
-          {
-            "nombre": "Bow_Deform",
-            "estado": "completado",
-            "notas": "PRUEBA DE CAMBIO DE JCM"
-          }
-        ]
-      },
-      "Geta": {
-        "nombre": "Geta",
-        "jcms": [
-          {
-            "nombre": "Foot_Angle_R",
-            "estado": "completado",
-            "notas": "Ángulo de pie ajustado"
-          },
-          {
-            "nombre": "Foot_Angle_L",
-            "estado": "completado",
-            "notas": "Simetría verificada"
-          }
-        ]
-      }
-    }
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)abdomenUpper_BendBack_25x",
+    "Estado": "Hecho",
+    "Notas": ""
   },
-  "ropa_casual": {
-    "nombre": "Ropa Casual",
-    "objetos": {
-      "Camiseta": {
-        "nombre": "Camiseta",
-        "jcms": [
-          {
-            "nombre": "Shoulder_Lift_R",
-            "estado": "completado",
-            "notas": "Corrección aplicada correctamente"
-          },
-          {
-            "nombre": "Shoulder_Lift_L",
-            "estado": "completado",
-            "notas": "Simetría verificada"
-          },
-          {
-            "nombre": "Chest_Expand",
-            "estado": "en-progreso",
-            "notas": "Ajustando elasticidad"
-          }
-        ]
-      },
-      "Pantalon": {
-        "nombre": "Pantalón",
-        "jcms": [
-          {
-            "nombre": "Hip_Bend_Forward",
-            "estado": "completado",
-            "notas": "Tested en poses extremas"
-          },
-          {
-            "nombre": "Knee_Bend_R",
-            "estado": "en-progreso",
-            "notas": "Refinando pliegues"
-          },
-          {
-            "nombre": "Knee_Bend_L",
-            "estado": "pendiente",
-            "notas": "Pendiente de simetría"
-          }
-        ]
-      },
-      "Zapatillas": {
-        "nombre": "Zapatillas",
-        "jcms": [
-          {
-            "nombre": "Foot_Bend_R",
-            "estado": "completado",
-            "notas": "Flexión aplicada correctamente"
-          },
-          {
-            "nombre": "Foot_Bend_L",
-            "estado": "completado",
-            "notas": "Simetría verificada"
-          }
-        ]
-      }
-    }
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)abdomenUpper_BendFwrd_32x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)abdomenUpper_Twist_-20y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)abdomenUpper_Twist_20y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)abdomenLower_SideL_15z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)abdomenLower_SideR_15z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)abdomenLower_BendBack_20x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)abdomenLower_BendFwrd_20x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)abdomenLower_Twist_-15y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)abdomenLower_Twist_15y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)pelvis_SideL_10z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)pelvis_SideR_10z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)pelvis_BendBack_25x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)pelvis_BendFwrd_25x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)pelvis_Twist_15y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)pelvis_Twist_-15y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)chestLower_SideL_20z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)chestLower_SideR_20z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)chestLower_BendBack_25x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)chestLower_BendFwrd_22x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)chestLower_Twist_-12y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)chestUpper_SideL_10z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)chestUpper_SideR_10z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)chestUpper_BendBack_15x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)chestUpper_BendFwrd_15x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)chestUpper_Twist_10y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)lCollar_SideL_22x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)lCollar_TwistBack_30y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)lCollar_TwistFwrd_30y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)lCollar_TwistBack_17z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)lCollar_TwistFwrd_26z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)rCollar_SideL_22x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)rCollar_TwistBack_30y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)rCollar_TwistFwrd_30y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)rCollar_TwistBack_17z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)rCollar_TwistFwrd_26z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)neckLower_BendBack_25x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)lShldrBend_BendUp_90z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)lShldrBend_BendDown_40z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)lShldrBend_TwistBack_40x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)lShldrBend_TwistFwrd_80x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)lShldrTwist_Twist_80y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)lShldrTwist_Twist_-95y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)lForearmBend_Bend_74x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)lForearmBend_Bend_Fwrd_135x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)lForearmTwist_Twist_80y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)lForearmTwist_Twist_-90y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)lHand_Sides_-30x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)lHand_Sides_28x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)lHand_Bend_-70z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)lHand_Bend_80z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)rShldrBend_BendUp_90z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)rShldrBend_BendDown_40z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)rShldrTwist_Twist_-80y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)lShldrTwist_Twist_95y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)rForearmBend_Bend_74x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)rForearmBend_Bend_Fwrd_135x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)rForearmTwist_Twist_90y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)rForearmTwist_Twist_80y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)rHand_Sides_-30x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)rHand_Sides_28x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)rHand_Bend_70z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Traje",
+    "Nombre JCM": "(JCM)rHand_Bend_-80z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Cinturon",
+    "Nombre JCM": "(JCM)chestLower_SideL_20z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Cinturon",
+    "Nombre JCM": "(JCM)chestLower_SideR_20z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Cinturon",
+    "Nombre JCM": "(JCM)chestLower_BendBack_25x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Cinturon",
+    "Nombre JCM": "(JCM)chestLower_BendFwrd_22x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Cinturon",
+    "Nombre JCM": "(JCM)chestLower_Twist_-12y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Cinturon",
+    "Nombre JCM": "(JCM)chestLower_Twist_12y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Cinturon",
+    "Nombre JCM": "(JCM)abdomenUpper_SideL_24z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Cinturon",
+    "Nombre JCM": "(JCM)abdomenUpper_SideR_24z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Cinturon",
+    "Nombre JCM": "(JCM)abdomenUpper_BendBack_25x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Cinturon",
+    "Nombre JCM": "(JCM)abdomenUpper_BendFwrd_32x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Cinturon",
+    "Nombre JCM": "(JCM)abdomenUpper_Twist_-20y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Cinturon",
+    "Nombre JCM": "(JCM)abdomenUpper_Twist_20y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Cinturon",
+    "Nombre JCM": "(JCM)abdomenLower_SideL_15z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Cinturon",
+    "Nombre JCM": "(JCM)abdomenLower_SideR_15z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Cinturon",
+    "Nombre JCM": "(JCM)abdomenLower_BendBack_20x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Cinturon",
+    "Nombre JCM": "(JCM)abdomenLower_BendFwrd_20x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Cinturon",
+    "Nombre JCM": "(JCM)abdomenLower_Twist_-15y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Cinturon",
+    "Nombre JCM": "(JCM)abdomenLower_Twist_15y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Cinturon",
+    "Nombre JCM": "(JCM)pelvis_SideL_10z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Gi",
+    "Objeto": "Gi_Cinturon",
+    "Nombre JCM": "(JCM)pelvis_SideR_10z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)neckLower_SideL_35x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)neckLower_SideR_35x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)lCollar_SideL_22x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)lCollar_SideL_-10x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)lCollar_TwistBack_30y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)lCollar_TwistFwrd_30y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)lCollar_TwistBack_17z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)lCollar_TwistFwrd_26z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)rCollar_SideL_22x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)rCollar_SideL_-10x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)rCollar_TwistBack_-30y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)rCollar_TwistFwrd_30y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)rCollar_TwistBack_17z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)rCollar_TwistFwrd_26z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)lShldrBend_BendUp_90z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)lShldrBend_BendDown_40z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)lShldrBend_TwistBack_40x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)lShldrBend_TwistFwrd_80x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)rShldrBend_BendUp_90z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)rShldrBend_BendDown_40z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)rShldrBend_TwistBack_40x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)rShldrBend_TwistFwrd_80x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)chestUpper_SideL_10z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)chestUpper_SideR_10z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)chestUpper_BendBack_15x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)chestUpper_BendFwrd_15x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)chestUpper_Twist_10y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)chestUpper_Twist_-10y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)chestLower_SideL_20z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)chestLower_SideR_20z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)chestLower_BendBack_25x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)chestLower_BendFwrd_22x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)chestLower_Twist_-12y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)chestLower_Twist_12y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)abdomenUpper_SideL_24z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)abdomenUpper_SideR_24z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)abdomenUpper_BendBack_25x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)abdomenUpper_BendFwrd_32x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)abdomenUpper_Twist_-20y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)abdomenUpper_Twist_20y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)abdomenLower_SideL_15z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)abdomenLower_SideR_15z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)abdomenLower_BendBack_20x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)abdomenLower_BendFwrd_20x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)abdomenLower_Twist_-15y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)abdomenLower_Twist_15y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)pelvis_SideL_10z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)pelvis_SideR_10z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)pelvis_BendBack_25x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)pelvis_BendFwrd_25x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)pelvis_Twist_15y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)pelvis_Twist_-15y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)lThighTwist_65y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)lThighTwist_-65y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)rThighTwist_65y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)rThighTwist_-65y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)lThighBend_SideL_-85z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(C1)lThighBend_SideL_-85z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)lThighBend_SideR_26z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)lThighBend_BendFwrd_-90x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(C1)lThighBend_BendFwrd_-90x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)lThighBend_BendBack_35x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(C1)lThighBend_BendBack_35x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)rThighBend_SideL_-85z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(C1)rThighBend_SideL_-85z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)rThighBend_SideR_26z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)rThighBend_BendFwrd_-90x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(C1)rThighBend_BendFwrd_-90x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)rThighBend_BendBack_35x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(C1)rThighBend_BendBack_35x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)lCollar_22x30y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)lCollar_22x-30y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)lCollar_-10x30y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)lCollar_-10x-30y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)lCollar_22x17z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)lCollar_22x-26z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)lCollar_-10x17z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)lCollar_30y17z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)lCollar_30y-26z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)lCollar_-30y17z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)lCollar_-30y-26z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)lCollar_22x30y17z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)lCollar_22x30y-26z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)lCollar_22x-30y17z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)lCollar_22x-30y-26z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)lCollar_-10x30y17z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)lCollar_-10x30y-26z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)lCollar_-10x-30y17z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)lCollar_-10x-30y-26z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)chestUpper_15x10y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)chestUpper_15x-10y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)chestUpper_15x10z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)chestUpper_15x-10z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)chestUpper_-15x10y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)chestUpper_-15x-10y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)chestUpper_-15x10z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)chestUpper_-15x-10z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)chestUpper_10y10z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)chestUpper_10y-10z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)chestUpper_-10y10z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)chestUpper_-10y-10z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)chestUpper_15x10y10z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)chestUpper_15x10y-10z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)chestUpper_15x-10y10z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)chestUpper_15x-10y-10z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)chestUpper_-15x10y10z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)chestUpper_-15x10y-10z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)chestUpper_-15x-10y10z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)chestUpper_-15x-10y-10z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)rCollar_22x30y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)rCollar_22x-30y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)rCollar_-10x30y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)rCollar_-10x-30y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)rCollar_22x26z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)rCollar_22x-17z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)rCollar_-10x26z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)rCollar_-10x-17z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)rCollar_30y26z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)rCollar_30y-17z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)rCollar_-30y26z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)rCollar_-30y-17z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)rCollar_22x30y26z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)rCollar_22x30y-17z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)rCollar_22x-30y26z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)rCollar_22x-30y-17z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)rCollar_-10x30y26z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)rCollar_-10x30y-17z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)rCollar_-10x-30y26z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)rCollar_-10x-30y-17z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)chestLower_22x12y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)chestLower_22x-12y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)chestLower_-25x12y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)chestLower_-25x-12y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)chestLower_22x20z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)chestLower_22x-20z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)chestLower_-25x20z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)chestLower_-25x-20z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)chestLower_12y20z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)chestLower_12y-20z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)chestLower_-12y20z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)chestLower_-12y-20z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)chestLower_22x12y20z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)chestLower_22x12y-20z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)chestLower_22x-12y20z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)chestLower_22x-12y-20z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)chestLower_-25x12y20z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)chestLower_-25x12y-20z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)chestLower_-25x-12y20z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)chestLower_-25x-12y-20z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)abdomenUpper_40x20y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)abdomenUpper_40x-20y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)abdomenUpper_-25x20y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)abdomenUpper_-25x-20y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)abdomenUpper_40x24z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)abdomenUpper_40x-24z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)abdomenUpper_-25x24z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)abdomenUpper_-25x-24z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)abdomenUpper_20y24z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)abdomenUpper_20y-24z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)abdomenUpper_-20y24z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)abdomenUpper_-20y-24z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)abdomenUpper_40x20y24z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)abdomenUpper_40x20y-24z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)abdomenUpper_40x-20y24z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)abdomenUpper_40x-20y-24z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)abdomenUpper_-25x20y24z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)abdomenUpper_-25x20y-24z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)abdomenUpper_-25x-20y24z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)abdomenUpper_-25x-20y-24z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)abdomenLower_35x15y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)abdomenLower_35x-15y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)abdomenLower_-20x15y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)abdomenLower_-20x-15y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)abdomenLower_35x15z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)abdomenLower_35x-15z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)abdomenLower_-20x15z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)abdomenLower_-20x-15z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)abdomenLower_15y15z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)abdomenLower_15y-15z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)abdomenLower_-15y15z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)abdomenLower_-15y-15z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)abdomenLower_35x15y15z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)abdomenLower_35x15y-15z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)abdomenLower_35x-15y15z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)abdomenLower_35x-15y-15z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)abdomenLower_-20x15y15z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)abdomenLower_-20x15y-15z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)abdomenLower_-20x-15y15z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)abdomenLower_-20x-15y-15z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)pelvis_25x15y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)pelvis_25x-15y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)pelvis_-25x15y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)pelvis_-25x-15y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)pelvis_25x10z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)pelvis_25x-10z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)pelvis_-25x10z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)pelvis_-25x-10z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)pelvis_15y10z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)pelvis_15y-10z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)pelvis_-15y10z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)pelvis_-15y-10z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)pelvis_25x15y10z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)pelvis_25x15y-10z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)pelvis_25x-15y10z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)pelvis_25x-15y-10z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)pelvis_-25x15y10z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)pelvis_-25x15y-10z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)pelvis_-25x-15y10z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(TRIP)pelvis_-25x-15y-10z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)lShldrBend_-40x90z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Sukumizu",
+    "Objeto": "Sukumizu_Traje",
+    "Nombre JCM": "(JCM)(DOB)rShldrBend_-40x90z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Botas",
+    "Nombre JCM": "(JCM)rShin_60x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Botas",
+    "Nombre JCM": "(JCM)rShin_60xTo110x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Botas",
+    "Nombre JCM": "(JCM)lShin_60x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Botas",
+    "Nombre JCM": "(JCM)lShin_60xTo110x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Botas",
+    "Nombre JCM": "(JCM)lThighTwist_-65y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Botas",
+    "Nombre JCM": "(JCM)lThighTwist_65y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Botas",
+    "Nombre JCM": "(JCM)rThighTwist_-65y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Botas",
+    "Nombre JCM": "(JCM)rThighTwist_65y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Botas",
+    "Nombre JCM": "(JCM)rFoot_50x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Botas",
+    "Nombre JCM": "(JCM)lFoot_50x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Collar",
+    "Nombre JCM": "(JCM)lCollar_22x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Collar",
+    "Nombre JCM": "(JCM)lCollar_-10x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Collar",
+    "Nombre JCM": "(JCM)lCollar_30y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Collar",
+    "Nombre JCM": "(JCM)lCollar_-30y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Collar",
+    "Nombre JCM": "(JCM)lCollar_17z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Collar",
+    "Nombre JCM": "(JCM)lCollar_-26z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Collar",
+    "Nombre JCM": "(JCM)(DOB)lCollar_22x30y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Collar",
+    "Nombre JCM": "(JCM)(DOB)lCollar_22x-30y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Collar",
+    "Nombre JCM": "(JCM)(DOB)lCollar_22x-26z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Collar",
+    "Nombre JCM": "(JCM)(DOB)lCollar_-10x17z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Collar",
+    "Nombre JCM": "(JCM)(DOB)lCollar_30y17z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Collar",
+    "Nombre JCM": "(JCM)(DOB)lCollar_30y-26z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Collar",
+    "Nombre JCM": "(JCM)(DOB)lCollar_-30y17z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Collar",
+    "Nombre JCM": "(JCM)(DOB)lCollar_-30y-26z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Collar",
+    "Nombre JCM": "(JCM)(TRIP)lCollar_22x30y17z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Collar",
+    "Nombre JCM": "(JCM)(TRIP)lCollar_22x30y-26z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Collar",
+    "Nombre JCM": "(JCM)(TRIP)lCollar_22x-30y17z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Collar",
+    "Nombre JCM": "(JCM)(TRIP)lCollar_22x-30y-26z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Collar",
+    "Nombre JCM": "(JCM)(TRIP)lCollar_-10x30y17z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Collar",
+    "Nombre JCM": "(JCM)(TRIP)lCollar_-10x30y-26z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Collar",
+    "Nombre JCM": "(JCM)(TRIP)lCollar_-10x-30y17z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Collar",
+    "Nombre JCM": "(JCM)(TRIP)lCollar_-10x-30y-26z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Collar",
+    "Nombre JCM": "(JCM)rCollar_22x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Collar",
+    "Nombre JCM": "(JCM)rCollar_-10x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Collar",
+    "Nombre JCM": "(JCM)rCollar_30y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Collar",
+    "Nombre JCM": "(JCM)rCollar_-30y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Collar",
+    "Nombre JCM": "(JCM)rCollar_26z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Collar",
+    "Nombre JCM": "(JCM)rCollar_-17z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Collar",
+    "Nombre JCM": "(JCM)(DOB)rCollar_22x30y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Collar",
+    "Nombre JCM": "(JCM)(DOB)rCollar_22x26z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Collar",
+    "Nombre JCM": "(JCM)(DOB)rCollar_30y26z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Collar",
+    "Nombre JCM": "(JCM)(DOB)rCollar_30y-17z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Collar",
+    "Nombre JCM": "(JCM)(DOB)rCollar_-30y26z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Collar",
+    "Nombre JCM": "(JCM)(DOB)rCollar_-30y-17z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Collar",
+    "Nombre JCM": "(JCM)(TRIP)rCollar_22x30y26z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Collar",
+    "Nombre JCM": "(JCM)(TRIP)rCollar_22x30y-17z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Collar",
+    "Nombre JCM": "(JCM)(TRIP)rCollar_22x-30y26z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Collar",
+    "Nombre JCM": "(JCM)(TRIP)rCollar_22x-30y-17z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Collar",
+    "Nombre JCM": "(JCM)(TRIP)rCollar_-10x30y26z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Collar",
+    "Nombre JCM": "(JCM)(TRIP)rCollar_-10x30y-17z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Collar",
+    "Nombre JCM": "(JCM)(TRIP)rCollar_-10x-30y26z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Collar",
+    "Nombre JCM": "(JCM)neckLower_40x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Collar",
+    "Nombre JCM": "(JCM)neckLower_-25x",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Collar",
+    "Nombre JCM": "(JCM)neckLower_22y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Collar",
+    "Nombre JCM": "(JCM)neckLower_-22y",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Collar",
+    "Nombre JCM": "(JCM)neckLower_35z",
+    "Estado": "Hecho",
+    "Notas": ""
+  },
+  {
+    "Traje": "Yoko",
+    "Objeto": "Yoko_Collar",
+    "Nombre JCM": "(JCM)neckLower_-35z",
+    "Estado": "Hecho",
+    "Notas": ""
   }
-}
+]
