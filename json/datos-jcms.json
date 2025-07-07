@@ -1,0 +1,267 @@
+{
+  "sukumizu": {
+    "nombre": "Sukumizu",
+    "objetos": {
+      "Traje_Superior": {
+        "nombre": "Traje Superior",
+        "jcms": [
+          {
+            "nombre": "Shoulder_Lift_R",
+            "estado": "completado",
+            "notas": "Corrección aplicada correctamente"
+          },
+          {
+            "nombre": "Shoulder_Lift_L",
+            "estado": "completado",
+            "notas": "Simetría verificada"
+          },
+          {
+            "nombre": "Chest_Expand",
+            "estado": "completado",
+            "notas": "Morph optimizado para respiración"
+          }
+        ]
+      },
+      "Traje_Inferior": {
+        "nombre": "Traje Inferior",
+        "jcms": [
+          {
+            "nombre": "Hip_Bend_Forward",
+            "estado": "completado",
+            "notas": "Tested en poses extremas"
+          },
+          {
+            "nombre": "Waist_Twist_R",
+            "estado": "en-progreso",
+            "notas": "Ajustando pesos de vértices"
+          },
+          {
+            "nombre": "Waist_Twist_L",
+            "estado": "pendiente",
+            "notas": "Programado para próxima iteración"
+          }
+        ]
+      },
+      "Correas": {
+        "nombre": "Correas",
+        "jcms": [
+          {
+            "nombre": "Strap_Tension_R",
+            "estado": "completado",
+            "notas": "Tensión aplicada correctamente"
+          },
+          {
+            "nombre": "Strap_Tension_L",
+            "estado": "en-progreso",
+            "notas": "Refinando deformación"
+          }
+        ]
+      }
+    }
+  },
+  "uniforme_escolar": {
+    "nombre": "Uniforme Escolar",
+    "objetos": {
+      "Camisa": {
+        "nombre": "Camisa",
+        "jcms": [
+          {
+            "nombre": "Shoulder_Lift_R",
+            "estado": "completado",
+            "notas": "Corrección aplicada correctamente"
+          },
+          {
+            "nombre": "Shoulder_Lift_L",
+            "estado": "completado",
+            "notas": "Simetría verificada"
+          },
+          {
+            "nombre": "Elbow_Bend_R",
+            "estado": "en-progreso",
+            "notas": "Necesita refinamiento en la zona del codo"
+          },
+          {
+            "nombre": "Elbow_Bend_L",
+            "estado": "pendiente",
+            "notas": "Esperando aprobación del cliente"
+          },
+          {
+            "nombre": "Chest_Expand",
+            "estado": "completado",
+            "notas": "Morph optimizado para respiración"
+          }
+        ]
+      },
+      "Falda": {
+        "nombre": "Falda",
+        "jcms": [
+          {
+            "nombre": "Hip_Bend_Forward",
+            "estado": "completado",
+            "notas": "Tested en poses extremas"
+          },
+          {
+            "nombre": "Waist_Twist_R",
+            "estado": "en-progreso",
+            "notas": "Ajustando pesos de vértices"
+          },
+          {
+            "nombre": "Leg_Lift_R",
+            "estado": "pendiente",
+            "notas": "Pendiente de revisión"
+          }
+        ]
+      },
+      "Corbata": {
+        "nombre": "Corbata",
+        "jcms": [
+          {
+            "nombre": "Neck_Turn_R",
+            "estado": "completado",
+            "notas": "Movimiento natural aplicado"
+          },
+          {
+            "nombre": "Neck_Turn_L",
+            "estado": "completado",
+            "notas": "Simetría verificada"
+          }
+        ]
+      },
+      "Calcetas": {
+        "nombre": "Calcetas",
+        "jcms": [
+          {
+            "nombre": "Knee_Bend_R",
+            "estado": "en-progreso",
+            "notas": "Ajustando compresión"
+          },
+          {
+            "nombre": "Knee_Bend_L",
+            "estado": "pendiente",
+            "notas": "Esperando revisión"
+          }
+        ]
+      }
+    }
+  },
+  "kimono_tradicional": {
+    "nombre": "Kimono Tradicional",
+    "objetos": {
+      "Kimono_Principal": {
+        "nombre": "Kimono Principal",
+        "jcms": [
+          {
+            "nombre": "Shoulder_Lift_R",
+            "estado": "completado",
+            "notas": "Corrección aplicada correctamente"
+          },
+          {
+            "nombre": "Shoulder_Lift_L",
+            "estado": "completado",
+            "notas": "Simetría verificada"
+          },
+          {
+            "nombre": "Sleeve_Flow_R",
+            "estado": "completado",
+            "notas": "Ajustando flujo de manga"
+          },
+          {
+            "nombre": "Sleeve_Flow_L",
+            "estado": "pendiente",
+            "notas": "Pendiente de implementación"
+          }
+        ]
+      },
+      "Obi": {
+        "nombre": "Obi",
+        "jcms": [
+          {
+            "nombre": "Waist_Compress",
+            "estado": "completado",
+            "notas": "Compresión aplicada correctamente"
+          },
+          {
+            "nombre": "Bow_Deform",
+            "estado": "completado",
+            "notas": "PRUEBA DE CAMBIO DE JCM"
+          }
+        ]
+      },
+      "Geta": {
+        "nombre": "Geta",
+        "jcms": [
+          {
+            "nombre": "Foot_Angle_R",
+            "estado": "completado",
+            "notas": "Ángulo de pie ajustado"
+          },
+          {
+            "nombre": "Foot_Angle_L",
+            "estado": "completado",
+            "notas": "Simetría verificada"
+          }
+        ]
+      }
+    }
+  },
+  "ropa_casual": {
+    "nombre": "Ropa Casual",
+    "objetos": {
+      "Camiseta": {
+        "nombre": "Camiseta",
+        "jcms": [
+          {
+            "nombre": "Shoulder_Lift_R",
+            "estado": "completado",
+            "notas": "Corrección aplicada correctamente"
+          },
+          {
+            "nombre": "Shoulder_Lift_L",
+            "estado": "completado",
+            "notas": "Simetría verificada"
+          },
+          {
+            "nombre": "Chest_Expand",
+            "estado": "en-progreso",
+            "notas": "Ajustando elasticidad"
+          }
+        ]
+      },
+      "Pantalon": {
+        "nombre": "Pantalón",
+        "jcms": [
+          {
+            "nombre": "Hip_Bend_Forward",
+            "estado": "completado",
+            "notas": "Tested en poses extremas"
+          },
+          {
+            "nombre": "Knee_Bend_R",
+            "estado": "en-progreso",
+            "notas": "Refinando pliegues"
+          },
+          {
+            "nombre": "Knee_Bend_L",
+            "estado": "pendiente",
+            "notas": "Pendiente de simetría"
+          }
+        ]
+      },
+      "Zapatillas": {
+        "nombre": "Zapatillas",
+        "jcms": [
+          {
+            "nombre": "Foot_Bend_R",
+            "estado": "completado",
+            "notas": "Flexión aplicada correctamente"
+          },
+          {
+            "nombre": "Foot_Bend_L",
+            "estado": "completado",
+            "notas": "Simetría verificada"
+          }
+        ]
+      }
+    }
+  }
+}
