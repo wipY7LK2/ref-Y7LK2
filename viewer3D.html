@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Turntable 3D</title>
+  <style>
+    body { margin: 0; overflow: hidden; background-color: #f0f0f0; }
+    #info { position: absolute; top: 10px; left: 10px; color: black; font-family: Arial; }
+  </style>
+</head>
+<body>
+  <div id="info">Cargando modelo...</div>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/build/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/js/loaders/GLTFLoader.js"></script>
+  <script>
+    // --- 1. Configuración inicial ---
+    const scene = new THREE.Scene();
+    const camera = new THREE.PerspectiveCamera(50, window.innerWidth / window.innerHeight, 0.1, 1000);
+    const renderer = new THREE.WebGLRenderer({ antialias: true });
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.setClearColor(0xf0f0f0);
+    document.body.appendChild(renderer.domElement);
+
+    // --- 2. Iluminación ---
+    const light = new THREE.DirectionalLight(0xffffff, 1);
+    light.position.set(1, 1, 1);
+    scene.add(light);
+    scene.add(new THREE.AmbientLight(0x404040));
+
+    // --- 3. Cargar modelo ---
+    const loader = new THREE.GLTFLoader();
+    let model;
+
+    loader.load(
+      'yin.glb', // ¡CAMBIAR POR LA RUTA CORRECTA!
+      (gltf) => {
+        model = gltf.scene;
+        scene.add(model);
+        model.scale.set(1, 1, 1);
+        document.getElementById('info').textContent = "Modelo cargado :)";
+      },
+      (progress) => {
+        console.log("Cargando: " + (progress.loaded / progress.total * 100) + "%");
+      },
+      (error) => {
+        console.error("ERROR:", error);
+        document.getElementById('info').textContent = "Error al cargar el modelo. Ver consola.";
+      }
+    );
+
+    // --- 4. Posición cámara ---
+    camera.position.z = 5;
+
+    // --- 5. Animación ---
+    function animate() {
+      requestAnimationFrame(animate);
+      if (model) model.rotation.y += 0.005;
+      renderer.render(scene, camera);
+    }
+    animate();
+
+    // --- 6. Ajustar tamaño ventana ---
+    window.addEventListener('resize', () => {
+      camera.aspect = window.innerWidth / window.innerHeight;
+      camera.updateProjectionMatrix();
+      renderer.setSize(window.innerWidth, window.innerHeight);
+    });
+  </script>
+</body>
+</html>
