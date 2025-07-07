@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         const response = await fetch(url);
         const data = await response.json();
 
-        // Ordenar por fecha (formato ISO, YYYY-MM-DD)
+        // Ordenar por fecha (formato ISO)
         data.sort((a, b) => new Date(b.Fecha) - new Date(a.Fecha));
 
         data.forEach(entrada => {
@@ -21,10 +21,15 @@ document.addEventListener("DOMContentLoaded", async () => {
             tablaBody.appendChild(fila);
         });
 
-        // Activar expansión de descripción
+        // Expandir/cerrar descripciones
         document.querySelectorAll('.descripcion-truncada').forEach(el => {
             el.addEventListener('click', () => el.classList.toggle('expandido'));
         });
+
+        // Actualizar la fecha más reciente en el encabezado
+        if (data.length > 0) {
+            document.querySelector('.last-update .date').textContent = data[0].Fecha;
+        }
 
     } catch (error) {
         console.error("Error al cargar el changelog:", error);
