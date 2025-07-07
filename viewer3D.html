@@ -3,12 +3,12 @@
 <head>
   <title>Turntable 3D</title>
   <style>
-    body { margin: 0; overflow: hidden; background-color: #f0f0f0; }
-    #info { position: absolute; top: 10px; left: 10px; color: black; font-family: Arial; }
+    body { margin: 0; overflow: hidden; }
+    canvas { display: block; }
   </style>
 </head>
 <body>
-  <div id="info">Cargando modelo...</div>
+  <!-- Cargamos Three.js desde CDN -->
   <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/build/three.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/js/loaders/GLTFLoader.js"></script>
   <script>
@@ -17,48 +17,51 @@
     const camera = new THREE.PerspectiveCamera(50, window.innerWidth / window.innerHeight, 0.1, 1000);
     const renderer = new THREE.WebGLRenderer({ antialias: true });
     renderer.setSize(window.innerWidth, window.innerHeight);
-    renderer.setClearColor(0xf0f0f0);
+    renderer.setClearColor(0xf0f0f0); // Color de fondo gris claro
     document.body.appendChild(renderer.domElement);
 
-    // --- 2. Iluminación ---
+    // --- 2. Iluminación (para que se vea bien el modelo) ---
     const light = new THREE.DirectionalLight(0xffffff, 1);
     light.position.set(1, 1, 1);
     scene.add(light);
-    scene.add(new THREE.AmbientLight(0x404040));
+    scene.add(new THREE.AmbientLight(0x404040)); // Luz ambiental
 
-    // --- 3. Cargar modelo ---
+    // --- 3. Cargar el modelo GLB ---
     const loader = new THREE.GLTFLoader();
-    let model;
+    let model; // Variable para guardar el modelo
 
     loader.load(
-      'yin.glb', // ¡CAMBIAR POR LA RUTA CORRECTA!
+      'ruta/a/tu_modelo.glb', // ¡Cambia esto por la ruta correcta!
       (gltf) => {
         model = gltf.scene;
         scene.add(model);
-        model.scale.set(1, 1, 1);
-        document.getElementById('info').textContent = "Modelo cargado :)";
+        
+        // Escala el modelo si es necesario (ajusta el número)
+        model.scale.set(1, 1, 1); 
       },
-      (progress) => {
-        console.log("Cargando: " + (progress.loaded / progress.total * 100) + "%");
-      },
+      undefined,
       (error) => {
-        console.error("ERROR:", error);
-        document.getElementById('info').textContent = "Error al cargar el modelo. Ver consola.";
+        console.error("Error al cargar el modelo:", error);
       }
     );
 
-    // --- 4. Posición cámara ---
-    camera.position.z = 5;
+    // --- 4. Posición de la cámara ---
+    camera.position.z = 5; // Aleja la cámara para ver el modelo
 
-    // --- 5. Animación ---
+    // --- 5. Animación de giro (turntable) ---
     function animate() {
       requestAnimationFrame(animate);
-      if (model) model.rotation.y += 0.005;
+      
+      // Gira el modelo (si está cargado)
+      if (model) {
+        model.rotation.y += 0.005; // Velocidad de giro (ajusta el número)
+      }
+      
       renderer.render(scene, camera);
     }
     animate();
 
-    // --- 6. Ajustar tamaño ventana ---
+    // --- 6. Ajustar tamaño al cambiar ventana ---
     window.addEventListener('resize', () => {
       camera.aspect = window.innerWidth / window.innerHeight;
       camera.updateProjectionMatrix();
