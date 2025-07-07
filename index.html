@@ -357,7 +357,7 @@
         // Función para cargar datos desde el JSON externo
         async function cargarDatosJSON() {
             try {
-                const response = await fetch('/json/datos-jcms.json');
+                const response = await fetch('json/datos-jcms.json');
                 
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
